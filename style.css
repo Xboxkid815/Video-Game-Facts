@@ -1,21 +1,42 @@
-p{font-size: 45px;
-  text-align : center
- }
-h1{font-size: 90px;
+
+h1{font-size: 3em;
 }
-h2{font-size : 30px;
+h2{font-size : 2em;
  }
-img{border-radius : 20px;
+img{border-radius : 2em;
    text-align : center}
-ul{font-size : 20px;
+ul{font-size : 1em;
 text-align: left;}
 
-body{ font-family : Comic Sans MS}
-.center{font-size: 40px;
+body{ font-family : Comic Sans MS;
+text-align: center;}
+.center{font-size: 2em;
  
        } 
-a{padding-left : 20px;
- padding-right : 20px}
+a{padding-left : 1em;
+ padding-right : 1em;
+ 
+}
 html{
   text-align: center
+}
+
+.banner {
+  width: 98%;
+}
+.Pages{
+  display: flex;
+  justify-content: space-evenly;
+}
+.Page {
+
+color :black
+}
+.Page>div>img{max-width: 4em;border-radius: 1em;}
+.wiki {
+  font-size: 70%;
+}
+.Wiki-Title{
+ font-size:  1.5em;
+ padding-top: 7em;
 }
