@@ -115,3 +115,6 @@ button{
   background-color: rgb(84, 84, 78);
   border-radius: 1em;
 }
+#game{ 
+  display: flex;
+}
