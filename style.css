@@ -90,7 +90,7 @@ h2 {
 }
 
 .Home {
-  font-size: 500%;
+  font-size: 100%;
   color: black;
 }
 
@@ -111,10 +111,23 @@ h2 {
 .About-Me {
   font-size: 180%;
 }
-button{
+
+button {
   background-color: rgb(84, 84, 78);
   border-radius: 1em;
 }
-#game{ 
+
+#game {
   display: flex;
+}
+
+#upgrades {
+  max-height: 20em;
+  overflow-y: auto;
+}
+#button:active {
+  transform : scale(0.8) ;
+}
+#button {
+  transition: transform .2s;
 }
