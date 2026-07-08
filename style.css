@@ -112,5 +112,6 @@ h2 {
   font-size: 180%;
 }
 button{
-  background-color: yellow;
+  background-color: rgb(84, 84, 78);
+  border-radius: 1em;
 }
