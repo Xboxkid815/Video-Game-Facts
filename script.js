@@ -55,8 +55,8 @@ function updateCount() {
     } else {
         document.getElementById("timber_harvester").setAttribute("disabled", "")
     }
-}
     localStorage.setItem("data", JSON.stringify(data))
+}
 
 
 document.getElementById("button").addEventListener("click", function () {
