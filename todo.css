@@ -1,0 +1,22 @@
+body{
+    font-family: Comic Sans MS;
+    ;
+}
+h1 {
+    text-align: center;
+}
+button {
+    width: 5em;
+    height: 5em;
+    background-color: aqua;
+    font-size:xx-small;
+    border-radius: 2em;
+
+}
+.Home {
+    color: black;
+    text-decoration: none;
+}
+.completed {
+    background-color: beige;
+}
